@@ -1,0 +1,61 @@
+.central{
+    height: calc(100% - 60px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    align-content: center;
+
+}
+.main{
+
+   height: 100vh;
+    position: relative;
+    background-color: rgb(0, 0, 255);
+   
+    z-index: -2;
+}
+.travel{
+height: auto;
+z-index: 1000;
+text-align: center;
+}
+
+.wape1{
+    position: absolute;
+width: 25%;
+
+top: 0;
+right: 0;
+
+background: blue;
+z-index: -1;
+}
+.wape2{
+    position: absolute;
+width: 15%;
+bottom: 0;
+right: 0;
+
+background: blue;
+}
+.texto{
+  width: 100%;  
+font-family: Roboto;
+font-style: italic;
+font-weight: bold;
+line-height: 75px;
+
+color: #FCF8F8;
+text-align: center;
+}
+button{
+    position:absolute;
+
+}
+mat-toolbar{
+    background-color: transparent !important;
+}
+h1{
+ font-size: 3vw;
+}
